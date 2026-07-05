@@ -5,7 +5,7 @@ import { NewsExplorer } from "@/components/news/news-explorer";
 export const metadata: Metadata = {
   title: "ข่าวสารและกิจกรรม",
   description:
-    "ข่าวประชาสัมพันธ์ กิจกรรม ความสำเร็จ และความเคลื่อนไหวล่าสุดของโรงเรียนวิริยาลัยวิทยา",
+    "ข่าวประชาสัมพันธ์ กิจกรรม ความสำเร็จ และความเคลื่อนไหวล่าสุดของโรงเรียนนักเดฟ",
 };
 
 export default function NewsPage() {
@@ -13,7 +13,7 @@ export default function NewsPage() {
     <>
       <PageHeader
         title="ข่าวสารและกิจกรรม"
-        lead="ติดตามความเคลื่อนไหว ความสำเร็จของนักเรียน และกิจกรรมต่าง ๆ ของโรงเรียนวิริยาลัยวิทยา"
+        lead="ติดตามความเคลื่อนไหว ความสำเร็จของนักเรียน และกิจกรรมต่าง ๆ ของโรงเรียนนักเดฟ"
         crumbs={[{ label: "ข่าวสาร" }]}
       />
       <section className="container-edge py-16 md:py-20">

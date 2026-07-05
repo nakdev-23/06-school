@@ -7,7 +7,7 @@ import { school } from "@/lib/data/school";
 export const metadata: Metadata = {
   title: "ติดต่อเรา",
   description:
-    "ติดต่อสอบถามข้อมูล นัดหมายเยี่ยมชม หรือส่งข้อความถึงโรงเรียนวิริยาลัยวิทยา",
+    "ติดต่อสอบถามข้อมูล นัดหมายเยี่ยมชม หรือส่งข้อความถึงโรงเรียนนักเดฟ",
 };
 
 const contactCards = [
@@ -110,7 +110,7 @@ export default function ContactPage() {
               <div
                 className="relative flex aspect-[4/3] items-center justify-center bg-primary-tint"
                 role="img"
-                aria-label="แผนที่ตั้งโรงเรียนวิริยาลัยวิทยา"
+                aria-label="แผนที่ตั้งโรงเรียนนักเดฟ"
               >
                 <div
                   className="absolute inset-0 opacity-60"
@@ -126,7 +126,7 @@ export default function ContactPage() {
                     <MapPin className="size-7" aria-hidden />
                   </span>
                   <p className="mt-3 font-serif text-base font-bold text-primary">
-                    โรงเรียนวิริยาลัยวิทยา
+                    โรงเรียนนักเดฟ
                   </p>
                   <p className="text-sm text-ink-soft">เขตจตุจักร กรุงเทพฯ</p>
                 </div>

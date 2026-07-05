@@ -5,7 +5,7 @@ import { CalendarView } from "@/components/calendar/calendar-view";
 export const metadata: Metadata = {
   title: "ปฏิทินการศึกษา",
   description:
-    "ปฏิทินการศึกษาและกิจกรรมสำคัญประจำปีการศึกษา 2569 ของโรงเรียนวิริยาลัยวิทยา",
+    "ปฏิทินการศึกษาและกิจกรรมสำคัญประจำปีการศึกษา 2569 ของโรงเรียนนักเดฟ",
 };
 
 export default function CalendarPage() {

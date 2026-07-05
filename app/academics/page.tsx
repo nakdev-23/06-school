@@ -10,7 +10,7 @@ import { programs } from "@/lib/data/programs";
 export const metadata: Metadata = {
   title: "หลักสูตร",
   description:
-    "หลักสูตรต่อเนื่องตั้งแต่ระดับอนุบาล ประถมศึกษา ถึงมัธยมศึกษา ของโรงเรียนวิริยาลัยวิทยา",
+    "หลักสูตรต่อเนื่องตั้งแต่ระดับอนุบาล ประถมศึกษา ถึงมัธยมศึกษา ของโรงเรียนนักเดฟ",
 };
 
 const accentText: Record<string, string> = {

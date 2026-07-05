@@ -1,4 +1,5 @@
 import type { FacultyMember, Department } from "@/lib/types";
+import { portrait } from "@/lib/images";
 
 export const departments: Department[] = [
   { slug: "leadership", name: "ผู้บริหาร", description: "ทีมผู้นำที่กำหนดทิศทางและดูแลคุณภาพการศึกษาของโรงเรียน" },
@@ -19,7 +20,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["นโยบายการศึกษา", "การพัฒนาหลักสูตร"],
     bio: "ทายาทรุ่นที่สองของผู้ก่อตั้ง ทุ่มเทพัฒนาโรงเรียนกว่า 20 ปี เชื่อมั่นในการศึกษาที่สมดุลระหว่างวิชาการและความเป็นมนุษย์",
     years: 22,
-    image: "https://picsum.photos/seed/wl-t1/600/700",
+    image: portrait("wl-t1"),
   },
   {
     id: "vice-academic",
@@ -30,7 +31,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["การวัดและประเมินผล", "นวัตกรรมการสอน"],
     bio: "ดูแลคุณภาพการเรียนการสอนทั้งโรงเรียน ผลักดันการเรียนรู้แบบโครงงานและการประเมินเพื่อพัฒนา",
     years: 18,
-    image: "https://picsum.photos/seed/wl-t2/600/700",
+    image: portrait("wl-t2"),
   },
   {
     id: "early-1",
@@ -41,7 +42,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["พัฒนาการเด็กปฐมวัย", "การเล่นเชิงสร้างสรรค์"],
     bio: "ผู้เชี่ยวชาญแนวการสอนมอนเตสซอรี เชื่อว่าเด็กทุกคนเรียนรู้ได้ดีที่สุดผ่านการเล่นที่มีความหมาย",
     years: 15,
-    image: "https://picsum.photos/seed/wl-t3/600/700",
+    image: portrait("wl-t3"),
   },
   {
     id: "early-2",
@@ -52,7 +53,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["ศิลปะเด็กเล็ก", "นิทานและภาษา"],
     bio: "อบอุ่นและอดทน ถนัดการใช้นิทานและเพลงสร้างความมั่นใจให้เด็กที่เพิ่งเข้าโรงเรียน",
     years: 9,
-    image: "https://picsum.photos/seed/wl-t4/600/700",
+    image: portrait("wl-t4"),
   },
   {
     id: "thai-1",
@@ -63,7 +64,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["ภาษาไทย", "วรรณคดีไทย"],
     bio: "รักในความงามของภาษาไทย มุ่งให้นักเรียนอ่านอย่างเข้าใจและเขียนอย่างมีพลัง ผ่านวรรณคดีและงานเขียนร่วมสมัย",
     years: 20,
-    image: "https://picsum.photos/seed/wl-t5/600/700",
+    image: portrait("wl-t5"),
   },
   {
     id: "social-1",
@@ -74,7 +75,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["ประวัติศาสตร์", "หน้าที่พลเมือง"],
     bio: "สอนประวัติศาสตร์ผ่านการตั้งคำถามและถกเถียง เพื่อให้นักเรียนเข้าใจปัจจุบันและเป็นพลเมืองที่คิดเป็น",
     years: 12,
-    image: "https://picsum.photos/seed/wl-t6/600/700",
+    image: portrait("wl-t6"),
   },
   {
     id: "math-1",
@@ -85,7 +86,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["คณิตศาสตร์", "คณิตศาสตร์โอลิมปิก"],
     bio: "โค้ชทีมคณิตศาสตร์โอลิมปิกของโรงเรียน เชื่อว่าคณิตศาสตร์คือภาษาของการคิดอย่างมีเหตุผล ไม่ใช่การท่องสูตร",
     years: 16,
-    image: "https://picsum.photos/seed/wl-t7/600/700",
+    image: portrait("wl-t7"),
   },
   {
     id: "science-1",
@@ -96,7 +97,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["ฟิสิกส์", "โครงงานวิทยาศาสตร์", "หุ่นยนต์"],
     bio: "อดีตนักวิจัย นำประสบการณ์ห้องแล็บจริงมาสู่ห้องเรียน พานักเรียนคว้ารางวัลระดับประเทศหลายเวที",
     years: 10,
-    image: "https://picsum.photos/seed/wl-t8/600/700",
+    image: portrait("wl-t8"),
   },
   {
     id: "science-2",
@@ -107,7 +108,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["ชีววิทยา", "เคมี"],
     bio: "ออกแบบการทดลองที่เชื่อมโยงกับชีวิตประจำวัน ให้นักเรียนเห็นวิทยาศาสตร์รอบตัวและอยากค้นหาคำตอบ",
     years: 8,
-    image: "https://picsum.photos/seed/wl-t9/600/700",
+    image: portrait("wl-t9"),
   },
   {
     id: "lang-1",
@@ -118,7 +119,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["English Language", "Academic Writing"],
     bio: "ครูเจ้าของภาษาจากสหราชอาณาจักร ประสบการณ์สอนกว่า 14 ปีในเอเชีย เน้นการสื่อสารอย่างมั่นใจและการเขียนเชิงวิชาการ",
     years: 14,
-    image: "https://picsum.photos/seed/wl-t10/600/700",
+    image: portrait("wl-t10"),
   },
   {
     id: "lang-2",
@@ -129,7 +130,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["ภาษาจีนกลาง", "วัฒนธรรมจีน"],
     bio: "สอนภาษาจีนผ่านเพลง ละคร และวัฒนธรรม เตรียมนักเรียนสอบ HSK และแลกเปลี่ยนกับโรงเรียนพี่น้องในเซี่ยงไฮ้",
     years: 7,
-    image: "https://picsum.photos/seed/wl-t11/600/700",
+    image: portrait("wl-t11"),
   },
   {
     id: "arts-1",
@@ -140,7 +141,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["ทัศนศิลป์", "ประวัติศาสตร์ศิลป์"],
     bio: "ศิลปินและครู ผู้เปิดพื้นที่ให้นักเรียนกล้าแสดงออกและค้นพบเสียงของตนเองผ่านงานศิลปะ",
     years: 13,
-    image: "https://picsum.photos/seed/wl-t12/600/700",
+    image: portrait("wl-t12"),
   },
   {
     id: "pe-1",
@@ -151,7 +152,7 @@ export const faculty: FacultyMember[] = [
     subjects: ["พลศึกษา", "ว่ายน้ำ", "ฟุตบอล"],
     bio: "อดีตนักกีฬาเยาวชนทีมชาติ ปลูกฝังวินัย น้ำใจนักกีฬา และสุขภาพที่ดีให้นักเรียนทุกระดับ",
     years: 11,
-    image: "https://picsum.photos/seed/wl-t13/600/700",
+    image: portrait("wl-t13"),
   },
 ];
 

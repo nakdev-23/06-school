@@ -6,7 +6,7 @@ import { faculty } from "@/lib/data/faculty";
 export const metadata: Metadata = {
   title: "คณะครูและบุคลากร",
   description:
-    "รู้จักคณะครูและบุคลากรผู้ทุ่มเทของโรงเรียนวิริยาลัยวิทยา ในแต่ละกลุ่มสาระการเรียนรู้",
+    "รู้จักคณะครูและบุคลากรผู้ทุ่มเทของโรงเรียนนักเดฟ ในแต่ละกลุ่มสาระการเรียนรู้",
 };
 
 export default function FacultyPage() {

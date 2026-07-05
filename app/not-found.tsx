@@ -13,7 +13,7 @@ export default function NotFound() {
       </h1>
       <p className="mt-3 max-w-md leading-relaxed text-muted">
         หน้านี้อาจถูกย้ายหรือไม่มีอยู่แล้ว ลองกลับไปหน้าแรก
-        หรือสำรวจหน้าอื่น ๆ ของโรงเรียนวิริยาลัยวิทยา
+        หรือสำรวจหน้าอื่น ๆ ของโรงเรียนนักเดฟ
       </p>
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
         <ButtonLink href="/" variant="primary" size="lg">

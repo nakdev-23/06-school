@@ -24,6 +24,7 @@ import { sortedNews } from "@/lib/data/news";
 import { sortedEvents } from "@/lib/data/events";
 import { eventTypeLabels } from "@/lib/data/events";
 import { formatThaiDate, dateParts } from "@/lib/utils";
+import { photo, portrait } from "@/lib/images";
 
 const whyIcons = [BookOpen, Users, FlaskConical, Sparkles, Trophy, ShieldCheck];
 
@@ -62,7 +63,7 @@ export default function HomePage() {
             </Reveal>
             <Reveal delay={120}>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-                โรงเรียนวิริยาลัยวิทยา สถาบันการศึกษาตั้งแต่ระดับอนุบาลถึงมัธยม
+                โรงเรียนนักเดฟ สถาบันการศึกษาตั้งแต่ระดับอนุบาลถึงมัธยม
                 ที่เชื่อว่าเด็กทุกคนเติบโตได้ดีที่สุดเมื่อได้เรียนรู้อย่างมีความหมาย
                 ในสภาพแวดล้อมที่อบอุ่นและท้าทายไปพร้อมกัน
               </p>
@@ -98,8 +99,8 @@ export default function HomePage() {
           <Reveal delay={120} className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border shadow-lg">
               <Image
-                src="https://picsum.photos/seed/wl-hero/1000/1250"
-                alt="บรรยากาศการเรียนรู้ที่โรงเรียนวิริยาลัยวิทยา"
+                src={photo("wl-hero", 1000, 1250, "classroom")}
+                alt="บรรยากาศการเรียนรู้ที่โรงเรียนนักเดฟ"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 45vw"
@@ -132,7 +133,7 @@ export default function HomePage() {
             <div className="relative mx-auto w-full max-w-sm">
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border shadow-md">
                 <Image
-                  src="https://picsum.photos/seed/wl-t1/800/1000"
+                  src={portrait("wl-t1", 800)}
                   alt={`${school.director} ผู้อำนวยการโรงเรียน`}
                   fill
                   sizes="(max-width: 1024px) 80vw, 30vw"
@@ -231,7 +232,7 @@ export default function HomePage() {
       {/* ---------- WHY CHOOSE (bento) ---------- */}
       <section className="container-edge py-20 md:py-28">
         <SectionHeading
-          title="ทำไมครอบครัวจึงไว้วางใจวิริยาลัย"
+          title="ทำไมครอบครัวจึงไว้วางใจนักเดฟ"
           lead="เราไม่ได้วัดความสำเร็จเพียงคะแนนสอบ แต่วัดจากการเติบโตอย่างสมดุลของนักเรียนทุกด้าน"
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -418,7 +419,7 @@ export default function HomePage() {
           <div className="grid gap-10 p-10 md:grid-cols-2 md:items-center md:p-16">
             <div>
               <h2 className="text-balance font-serif text-3xl font-bold leading-tight text-primary-fg md:text-4xl">
-                มาเป็นส่วนหนึ่งของครอบครัววิริยาลัย
+                มาเป็นส่วนหนึ่งของครอบครัวนักเดฟ
               </h2>
               <p className="mt-4 max-w-md text-lg leading-relaxed text-primary-fg/85">
                 นัดหมายเยี่ยมชมโรงเรียน พูดคุยกับคณะครู

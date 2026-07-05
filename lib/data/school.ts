@@ -1,6 +1,6 @@
 export const school = {
-  name: "โรงเรียนวิริยาลัยวิทยา",
-  nameEn: "Wiriyalai Wittaya School",
+  name: "โรงเรียนนักเดฟ",
+  nameEn: "Nakdev School",
   motto: "ปญฺญา นรานํ รตนํ",
   mottoThai: "ปัญญาเป็นแก้วอันประเสริฐของนรชน",
   founded: 2519, // พ.ศ.
@@ -11,11 +11,11 @@ export const school = {
     "119 ถนนพหลโยธิน แขวงจตุจักร เขตจตุจักร กรุงเทพมหานคร 10900",
   phone: "02-512-3456",
   fax: "02-512-3457",
-  email: "info@wiriyalai.ac.th",
-  admissionsEmail: "admission@wiriyalai.ac.th",
+  email: "info@nakdev.ac.th",
+  admissionsEmail: "admission@nakdev.ac.th",
   officeHours: "จันทร์ – ศุกร์ 07.30 – 16.30 น. · เสาร์ 08.00 – 12.00 น.",
-  lineId: "@wiriyalai",
-  facebook: "facebook.com/wiriyalai",
+  lineId: "@nakdev",
+  facebook: "facebook.com/nakdev",
 };
 
 export const stats = [
@@ -80,9 +80,9 @@ export const whyChoose = [
 ];
 
 export const facilities = [
-  { name: "หอสมุดวิริยะ", detail: "หนังสือกว่า 40,000 เล่ม พร้อมมุมค้นคว้าดิจิทัลและห้องอ่านเงียบ" },
+  { name: "หอสมุดนักเดฟ", detail: "หนังสือกว่า 40,000 เล่ม พร้อมมุมค้นคว้าดิจิทัลและห้องอ่านเงียบ" },
   { name: "ศูนย์วิทยาศาสตร์", detail: "ห้องปฏิบัติการฟิสิกส์ เคมี ชีววิทยา และห้องหุ่นยนต์-โคดดิ้ง" },
-  { name: "หอประชุมวิริยาลัย", detail: "ความจุ 800 ที่นั่ง สำหรับการแสดงและกิจกรรมวิชาการ" },
+  { name: "หอประชุมนักเดฟ", detail: "ความจุ 800 ที่นั่ง สำหรับการแสดงและกิจกรรมวิชาการ" },
   { name: "สนามกีฬาและสระว่ายน้ำ", detail: "สนามฟุตบอลมาตรฐาน โรงยิม และสระว่ายน้ำระบบเกลือ" },
   { name: "อาคารศิลปะและดนตรี", detail: "ห้องซ้อมดนตรีไทย-สากล สตูดิโอศิลปะ และห้องนาฏศิลป์" },
   { name: "โรงอาหารและโภชนาการ", detail: "อาหารปรุงสดใหม่ ควบคุมโดยนักโภชนาการ รองรับได้ 1,000 ที่นั่ง" },

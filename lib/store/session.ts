@@ -13,14 +13,14 @@ export const mockUsers: MockUser[] = [
   {
     id: "teacher-1",
     displayName: "ครูณัฐวดี แก้ววิริยะ",
-    email: "nattawadee@wiriyalai.ac.th",
+    email: "nattawadee@nakdev.ac.th",
     avatarSeed: "wl-user-teacher-1",
     role: "teacher",
   },
   {
     id: "student-1",
     displayName: "ปุณณภพ วัฒนากุล",
-    email: "punnaphop@student.wiriyalai.ac.th",
+    email: "punnaphop@student.nakdev.ac.th",
     avatarSeed: "wl-user-student-1",
     role: "student",
   },
@@ -42,7 +42,7 @@ interface SessionState {
 }
 
 export function avatarUrl(seed: string, size = 160): string {
-  return `https://picsum.photos/seed/${seed}/${size}/${size}`;
+  return `https://i.pravatar.cc/${size}?u=${encodeURIComponent(seed)}`;
 }
 
 export const useSessionStore = create<SessionState>()(

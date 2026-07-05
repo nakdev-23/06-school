@@ -46,10 +46,10 @@ export function Logo({ className }: { className?: string }) {
       <Crest className="size-9" />
       <span className="flex flex-col leading-none">
         <span className="font-serif text-lg font-bold tracking-tight text-ink">
-          วิริยาลัยวิทยา
+          นักเดฟ
         </span>
         <span className="text-[0.62rem] font-medium uppercase tracking-[0.18em] text-muted">
-          Wiriyalai Wittaya
+          Nakdev School
         </span>
       </span>
     </span>

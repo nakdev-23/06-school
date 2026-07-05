@@ -22,7 +22,7 @@ export const events: CalendarEvent[] = [
     title: "พิธีไหว้ครูประจำปี",
     date: "2026-06-11",
     type: "activity",
-    location: "หอประชุมวิริยาลัย",
+    location: "หอประชุมนักเดฟ",
     detail: "พิธีไหว้ครูและมอบเกียรติบัตรนักเรียนดีเด่น",
   },
   {
@@ -102,7 +102,7 @@ export const events: CalendarEvent[] = [
   },
   {
     id: "e12",
-    title: "กีฬาสีสัมพันธ์ วิริยะเกมส์",
+    title: "กีฬาสีสัมพันธ์ นักเดฟเกมส์",
     date: "2026-12-19",
     type: "activity",
     location: "สนามกีฬาโรงเรียน",

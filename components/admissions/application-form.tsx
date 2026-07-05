@@ -118,7 +118,7 @@ export function ApplicationForm() {
           ได้รับใบสมัครเรียบร้อยแล้ว
         </h3>
         <p className="mx-auto mt-3 max-w-md leading-relaxed text-ink-soft">
-          ขอบคุณที่สนใจโรงเรียนวิริยาลัยวิทยา เราได้รับใบสมัครของน้อง
+          ขอบคุณที่สนใจโรงเรียนนักเดฟ เราได้รับใบสมัครของน้อง
           <span className="font-semibold text-ink"> {submitted.studentName} </span>
           แล้ว ฝ่ายรับสมัครจะติดต่อกลับภายใน 5 วันทำการ
         </p>

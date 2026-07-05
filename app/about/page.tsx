@@ -20,11 +20,12 @@ import {
   accreditations,
   timeline,
 } from "@/lib/data/school";
+import { photo, portrait } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "เกี่ยวกับเรา",
   description:
-    "ประวัติ วิสัยทัศน์ พันธกิจ สิ่งอำนวยความสะดวก และการรับรองมาตรฐานของโรงเรียนวิริยาลัยวิทยา",
+    "ประวัติ วิสัยทัศน์ พันธกิจ สิ่งอำนวยความสะดวก และการรับรองมาตรฐานของโรงเรียนนักเดฟ",
 };
 
 const missions = [
@@ -49,8 +50,8 @@ export default function AboutPage() {
           <Reveal>
             <div className="relative aspect-[5/4] overflow-hidden rounded-2xl border border-border shadow-md">
               <Image
-                src="https://picsum.photos/seed/wl-about/1000/800"
-                alt="อาคารเรียนของโรงเรียนวิริยาลัยวิทยา"
+                src={photo("wl-about", 1000, 800, "building")}
+                alt="อาคารเรียนของโรงเรียนนักเดฟ"
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 className="object-cover"
@@ -62,7 +63,7 @@ export default function AboutPage() {
               <SectionHeading title="เรื่องราวของเรา" />
               <div className="mt-6 space-y-4 text-[1.05rem] leading-relaxed text-ink-soft">
                 <p>
-                  โรงเรียนวิริยาลัยวิทยาก่อตั้งขึ้นในปี พ.ศ. {school.founded}{" "}
+                  โรงเรียนนักเดฟก่อตั้งขึ้นในปี พ.ศ. {school.founded}{" "}
                   โดยอาจารย์วิริยะ เกียรติวิริยะ ครูผู้มีความฝันอยากสร้างโรงเรียน
                   ที่เด็ก ๆ ได้เรียนรู้อย่างมีความสุขและเติบโตเป็นคนดี
                   เริ่มต้นจากอาคารไม้หลังเล็กกับนักเรียนเพียงไม่กี่สิบคน
@@ -97,7 +98,7 @@ export default function AboutPage() {
         <div className="container-edge py-20 md:py-28">
           <SectionHeading
             title="เส้นทางการเติบโต"
-            lead="เหตุการณ์สำคัญที่หล่อหลอมโรงเรียนวิริยาลัยวิทยาให้เป็นอย่างทุกวันนี้"
+            lead="เหตุการณ์สำคัญที่หล่อหลอมโรงเรียนนักเดฟให้เป็นอย่างทุกวันนี้"
           />
           <ol className="mt-12 space-y-8 md:space-y-0">
             {timeline.map((item, i) => (
@@ -192,7 +193,7 @@ export default function AboutPage() {
           <Reveal>
             <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl border border-border shadow-md">
               <Image
-                src="https://picsum.photos/seed/wl-t1/800/1000"
+                src={portrait("wl-t1", 800)}
                 alt={school.director}
                 fill
                 sizes="(max-width: 1024px) 80vw, 30vw"
@@ -222,7 +223,7 @@ export default function AboutPage() {
               <p className="mt-6 font-serif text-lg font-semibold text-ink">
                 {school.director}
               </p>
-              <p className="text-muted">ผู้อำนวยการโรงเรียนวิริยาลัยวิทยา</p>
+              <p className="text-muted">ผู้อำนวยการโรงเรียนนักเดฟ</p>
             </div>
           </Reveal>
         </div>
@@ -243,7 +244,7 @@ export default function AboutPage() {
               <div className="group h-full overflow-hidden rounded-2xl border border-border bg-surface">
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <Image
-                    src={`https://picsum.photos/seed/wl-fac${i}/700/440`}
+                    src={photo(`wl-fac${i}`, 700, 440, "building")}
                     alt=""
                     fill
                     sizes="(max-width: 768px) 100vw, 30vw"
