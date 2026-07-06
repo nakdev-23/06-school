@@ -99,6 +99,7 @@ export function GalleryGrid() {
                 width={img.width}
                 height={img.height}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                priority={i < 3}
                 className="h-auto w-full transition-transform duration-500 group-hover:scale-105"
               />
               <span className="pointer-events-none absolute inset-0 flex items-end bg-gradient-to-t from-ink/70 via-transparent to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">

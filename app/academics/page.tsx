@@ -87,6 +87,7 @@ export default function AcademicsPage() {
                         alt={`บรรยากาศการเรียนระดับ${p.name}`}
                         fill
                         sizes="(max-width: 1024px) 100vw, 45vw"
+                        priority={i === 0}
                         className="object-cover"
                       />
                       <span className="absolute left-5 top-5 rounded-full bg-surface/95 px-3.5 py-1.5 text-sm font-semibold text-ink shadow-sm">

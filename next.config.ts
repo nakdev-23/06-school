@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "loremflickr.com" },
       { protocol: "https", hostname: "*.staticflickr.com" },
+      { protocol: "https", hostname: "unsplash.com" },
+      { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "i.pravatar.cc" },
     ],
   },
